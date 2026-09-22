@@ -1,0 +1,18 @@
+# Credentials and local Python files
+.env
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+
+# Raw collection and full GTFS source files
+data/raw/
+data/static/
+logs/
+
+# Large intermediate processing tables
+data/processed/vehicle_positions/
+data/processed/segment_observations/
+data/processed/segment_performance/
+data/processed/segment_states/
+data/processed/stop_events/
+data/processed/zone_times/
